@@ -16,4 +16,8 @@ for index, row in df.iterrows():
     pdf.cell(w=0, h=12, txt=row["Topic"], align="L", ln=1, border=1)
     pdf.line(10, 21, 200, 21)
 
+    # Create blank pages, as stated in the data.
+    for _ in range(row["Pages"] - 1):
+        pdf.add_page()
+
 pdf.output("output.pdf")
