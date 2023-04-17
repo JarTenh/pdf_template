@@ -6,4 +6,4 @@ This program creates a simple notebook for people learning python.
 Print it out and sketch.
 
 ## Dependancies
-One must have FPDF ja Pandas installed in a python environment.
+One must have FPDF and Pandas installed in a python environment.
